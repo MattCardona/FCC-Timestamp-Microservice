@@ -11,9 +11,9 @@ Example usage:
 
 [https://timestamp-microservice-api.herokuapp.com/api/1484208000](https://timestamp-microservice-api.herokuapp.com/api/1484208000)
 
-[https://timestamp-microservice-api.herokuapp.com/api/Jan 12 2017](https://timestamp-microservice-api.herokuapp.com/api/Jan 12 2017)
+[https://timestamp-microservice-api.herokuapp.com/api/Jan 12 2017](https://timestamp-microservice-api.herokuapp.com/api/Jan%2012%202017)
 
-[https://timestamp-microservice-api.herokuapp.com/api/1 12 2017](https://timestamp-microservice-api.herokuapp.com/api/1 12 2017)
+[https://timestamp-microservice-api.herokuapp.com/api/1 12 2017](https://timestamp-microservice-api.herokuapp.com/api/1%2012%202017)
 
 Example output:
 
