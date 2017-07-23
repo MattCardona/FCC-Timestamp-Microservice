@@ -1,0 +1,25 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <title>FCC TimeStamp MicroService</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/assets/style.css">
+    </head>
+    <body>
+      <h2>FCC API TimeStamp MicroService</h2>
+      <div class='userStory'>
+        <li>You can pass a string or numbers as a parameter in the url, and it will check it to see if its a unix timestamp or a natural date example (January 12, 2017).</li>
+        <li>If it contains one of the above, it will return both back to you.</li>
+        <li>If it does not contain a unix timestamp or natural date, it will return <bold>null</bold> for both properties.</li>
+      </div>
+      <div class="examples">
+        <h3>Example usage:</h3>
+          <p>https://[url of glitch project]/January 12 2017</p>
+          <p>https://[url of glitch project]/1484208000</p>
+          <p>https://[url of glitch project]/Jan 12 2017</p>
+          <p>https://[url of glitch project]/1 12 2017</p>
+        <h3>Example output:</h3>
+          <p>{"unix": 1484208000, "natural": "January 12, 2017"}</p>
+      </div>
+    </body>
+</html>
