@@ -7,7 +7,7 @@ TimeStamp-MicroService
 
 Example usage:
 
-[https://timestamp-microservice-api.herokuapp.com/api/January 12 2017](https://timestamp-microservice-api.herokuapp.com/api/January 12 2017)
+["https://timestamp-microservice-api.herokuapp.com/api/January 12 2017"](https://timestamp-microservice-api.herokuapp.com/api/January 12 2017)
 
 [https://timestamp-microservice-api.herokuapp.com/api/1484208000](https://timestamp-microservice-api.herokuapp.com/api/1484208000)
 
