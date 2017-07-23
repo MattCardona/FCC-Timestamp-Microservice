@@ -16,8 +16,11 @@ app.get('/api/:time', (req, res) => {
   var time = req.params.time;
   var natural = moment(time, ['MM-DD-YYYY', 'MMMM-DD-YYYY']).format("MMMM  DD YYYY");
   var unix = moment(time, 'MMMM-DD-YYYY').format("X");
-
-  res.json({unix: parseInt(unix), natural: natural});
+  if(moment(time, ['MM-DD-YYYY', 'MMMM-DD-YYYY']).isValid()){
+    res.json({unix: parseInt(unix), natural: natural});
+    res.end();
+  }
+  res.json({unix: parseInt(unix), natural: parseInt(unix)});
 });
 
 app.listen(port, ()=>{
